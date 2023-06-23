@@ -20,7 +20,7 @@ public class Class1 extends TestBase{
 		launchBrowser("Chrome");
 		driver.get("http://americangolf.co.uk/");
 		driver.findElement(By.xpath("//*[@id='termly-code-snippet-support']/div/div/div/div/div/div[2]/button[2]")).click();
-		WebElement golfClub=driver.findElement(By.xpath("//*[@id='header-navigation']/div/ul/li[3]/a"));
+		WebElement golfClub=driver.findElement(By.xpath("//*[@id='header-navigation']/div/ul/li[2]/a"));
 
 		Actions act = new Actions(driver);
 		act.moveToElement(golfClub).perform();
