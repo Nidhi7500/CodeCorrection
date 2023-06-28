@@ -26,9 +26,15 @@ public class Amazon extends TestBase {
 	
 	for(int i = 0; i <phoneNames.size();i++)
 	{
-		if(phoneNames.get(i).getText().contains("Black"))
+		int p= 300;
+		String price = prices.get(i).getText();
+		
+		if(price. p )// no idea what to write here
+			// i want to display and click on cheapest price.
 		{
-			System.out.println(phoneNames.get(i).getText()+"------------"+prices.get(i).getText());
+			
+			System.out.println(phoneNames.get(i).getText()+"------------"+price);
+			
 		break;
 	}
 }
